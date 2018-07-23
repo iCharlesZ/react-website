@@ -22,7 +22,7 @@
 }
 
 .navigation a:hover {
-  background: darken(deepskyblue, 2%);
+  background: skyblue;
 }
 
 @media all and (max-width: 800px) {
