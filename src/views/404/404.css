@@ -1,5 +1,32 @@
 .p404 {
-	max-width: 1000px;
-	margin: 0 auto;
-	min-height: 800px;
+	width: 100%;
+	height: auto;
+	background-color: #DDDDDD;
+	padding: 20px 0;
+	text-align: center;
+	height: 700px;
+}
+
+.page-text {
+	width: 200px;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    background: #f5f5f5;
+    margin: -5px auto;
+}
+
+.go a {
+	display: block;
+	margin: 15px 0;
+	text-decoration: none;
+	color: #333;
+}
+
+@media all and (max-width: 1000px) {
+    .p404 .content {
+		width: 96%;
+		margin: 2%;
+		min-height: 500px;
+		background-color: #fff;
+	}
 }

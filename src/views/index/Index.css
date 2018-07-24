@@ -1,5 +1,49 @@
 .HomePage {
+	width: 100%;
+	height: auto;
+	background-color: #DDDDDD;
+	padding: 20px 0;
+}
+
+.HomePage .content {
 	max-width: 1000px;
 	margin: 0 auto;
-	min-height: 800px;
+	min-height: 500px;
+	background-color: #fff;
+}
+
+.HomePage .content .nav {
+    padding: 10px 0;
+    background: #f6f6f6;;
+    border-radius: 5px 5px 0 0;
+}
+
+.HomePage .content .nav a {
+    padding: 2px 5px;
+    margin-left: 15px;
+    color: #80bd01;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.HomePage .content .nav a:hover {
+    color: #333;
+}
+
+.HomePage .content .nav a.active {
+    background: #80bd01;
+    color: #fff;
+    border-radius: 3px;
+}
+
+
+
+
+@media all and (max-width: 1000px) {
+    .HomePage .content {
+		width: 96%;
+		margin: 2%;
+		min-height: 500px;
+		background-color: #fff;
+	}
 }

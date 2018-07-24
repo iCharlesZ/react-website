@@ -1,0 +1,22 @@
+.AboutPage {
+	width: 100%;
+	height: auto;
+	background-color: #DDDDDD;
+	padding: 20px 0;
+}
+
+.AboutPage .content {
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 500px;
+	background-color: #fff;
+}
+
+@media all and (max-width: 1000px) {
+    .AboutPage .content {
+		width: 96%;
+		margin: 2%;
+		min-height: 500px;
+		background-color: #fff;
+	}
+}
