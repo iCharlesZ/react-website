@@ -1,0 +1,38 @@
+.footer-box {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.source-code-add a {
+    text-decoration: none;
+    color: #666;
+}
+
+.source-code-add a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.vendor li {
+    list-style: none;
+    float: left;
+    margin: 15px 30px 0 0;
+}
+
+@media all and (max-width: 1000px) {
+    .vendor li {
+        list-style: none;
+        margin: 15px 30px 0 0;
+    }
+}
+
+.vendor span {
+    margin-right: 10px;
+    color: #666;
+}
+
+
+.vendor .cnode img {
+    width: 100px;
+}
+
