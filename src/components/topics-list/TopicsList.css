@@ -1,11 +1,17 @@
 ul {
 	list-style: none;
+    padding: 0;
+    margin-top: 0;
 }
+
 li {
     overflow: hidden;
     padding: 10px;
 }
 
+.topicsTitle:hover {
+    background-color: #eee;
+}
 
 .avatar {
 	float: left;
@@ -51,6 +57,12 @@ li {
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.title:hover {
+    text-decoration: underline;
 }
 
 
@@ -58,11 +70,6 @@ li {
     .reply-view {
         display: none;
     }
-
-    li {
-        margin-left: -40px;
-    }
-
 
     .tag {
         margin-left: 7px;

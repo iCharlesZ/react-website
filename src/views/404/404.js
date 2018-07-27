@@ -5,7 +5,7 @@ import './404.css'
 var NotMatch = ({ history }) => {
     return (
         <div className="p404">
-            <img src={require('../../assets/images/not-match.gif')}/>
+            <img src={require('../../assets/images/not-match.gif')} alt=''/>
             <div className="page-text">卧槽！页面不见了！</div>
             <div className="go">
                 <Link to="/">回到首页</Link>

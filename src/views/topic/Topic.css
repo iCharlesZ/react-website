@@ -1,0 +1,34 @@
+.topic {
+	width: 100%;
+	height: auto;
+	background-color: #DDDDDD;
+	padding: 20px 0;
+}
+
+.topic .content {
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 10px 20px;
+}
+
+.markdown-body blockquote {
+	background-color: #eee;
+	padding: 5px 15px;
+}
+
+.markdown-body pre {
+	background-color: #eee;
+	padding: 5px 15px;
+	font-size: 12px;
+}
+
+@media all and (max-width: 1000px) {
+    .topic .content {
+		width: 92%;
+		overflow: hidden;
+		margin: 2%;
+		background-color: #fff;
+		padding: 2%;
+	}
+}

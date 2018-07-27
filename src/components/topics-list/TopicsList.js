@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './TopicsList.css'
+import { Link } from 'react-router-dom'
 
 class TopicsList extends Component {
 
@@ -61,7 +62,7 @@ class TopicsList extends Component {
             {
                 this.props.topics.map(item => {
                     return (
-                        <li key={item.id}>
+                        <li key={item.id} className="topicsTitle">
                             <div className="avatar">
                                 <img src={item.author.avatar_url} alt="头像" title={item.author.loginname} />
                             </div>
@@ -72,7 +73,7 @@ class TopicsList extends Component {
                             {
                                 item.tab && <span className={`tag ${this.tag(item).className}`}>{ this.tag(item).text }</span>
                             }
-                            <span className="title">{ item.title}</span>
+                            <Link to={`/topic/${item.id}`} className="title">{ item.title }</Link>
                         </li>
                     )
                 })

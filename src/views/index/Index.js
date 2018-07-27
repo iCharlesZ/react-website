@@ -20,15 +20,15 @@ class HomePage extends Component {
 
     componentDidMount () {
         this.setState({
-            page: parseInt(querystring(this.props.location.search).page) || 1,
+            page: parseInt(querystring(this.props.location.search).page, 1) || 1,
         }, () => {
             this.fetchTopics();
         })
     }
     
     componentDidUpdate (prevProps, prevState, prevContext) {
-        if( this.props.location != prevProps.location ) {
-            var page = parseInt(querystring(this.props.location.search).page);
+        if( this.props.location !== prevProps.location ) {
+            var page = parseInt(querystring(this.props.location.search).page, 1);
             if( !page ) {
                 this.setState({page: 1}, () => {
                     this.fetchTopics();
@@ -81,7 +81,7 @@ class HomePage extends Component {
 
     homePageActive = () => {
         var tab = querystring(this.props.location.search).tab;
-        return !tab || tab == 'all';
+        return !tab || tab === 'all';
     }
 
 	render() {
