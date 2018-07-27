@@ -12,6 +12,39 @@
 	padding: 10px 20px;
 }
 
+.topic .comment {
+	margin-top: 100px;
+	max-width: 1000px;
+	margin: 10px auto;
+	background-color: #fff;
+	padding: 10px 20px;
+}
+
+.topic .comment li:not(:nth-last-child(1)) {
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.topic .comment  .authorAvatar{
+	width: 30px;
+	float: left;
+}
+
+.topic .comment  .authorAvatar img {
+	width: 100%;
+}
+
+.topic .comment  .authorName{
+	margin-left: 50px;
+}
+
+.topic .comment  .replyContent{
+	clear: both;
+}
+
+.topic .comment  .replyContent img {
+	width: 90%;
+}
+
 .markdown-body blockquote {
 	background-color: #eee;
 	padding: 5px 15px;
@@ -23,6 +56,10 @@
 	font-size: 12px;
 }
 
+.markdown-body img {
+	width: 90%;
+}
+
 @media all and (max-width: 1000px) {
     .topic .content {
 		width: 92%;
@@ -30,5 +67,16 @@
 		margin: 2%;
 		background-color: #fff;
 		padding: 2%;
+	}
+	.topic .comment {
+		width: 92%;
+		overflow: hidden;
+		margin: -2% 2%;
+		background-color: #f6f6f6;
+		padding: 2%;
+	}
+
+	.topic .comment ul {
+		background-color: #fff;
 	}
 }
