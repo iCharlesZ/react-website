@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter  as Router, Switch, Route } from 'react-router-dom'
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import HomePage from '../views/index/Index'
@@ -21,5 +21,8 @@ const Routes = () => {
 		</Router>
 	)
 }
+
+/*const Routes = ({history}) => 
+        <Router history = {history}>*/
 
 export default Routes;
