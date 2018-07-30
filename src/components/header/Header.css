@@ -31,6 +31,10 @@
   color: white;
 }
 
+.muneBtn {
+  display: none;
+}
+
 @media all and (max-width: 800px) {
   .navigation {
     justify-content: space-around;
@@ -54,11 +58,22 @@
     text-align: center; 
     padding: 10px;
     border-top: 1px solid rgba(255,255,255,0.3); 
-    border-bottom: 1px solid rgba(0,0,0,0.1); 
   }
 
   
   .navigation li:last-of-type a {
     border-bottom: none;
+  }
+
+  .muneBtn {
+    display: block;
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+
+  .muneBtn img {
+    width: 100%;
   }
 }
