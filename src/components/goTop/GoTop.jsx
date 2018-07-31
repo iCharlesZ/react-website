@@ -41,7 +41,9 @@ class GoTop extends Component {
         };
 		var goTopStyle = this.state.showGoTop === true ? show : hide;
     	return (
-			<div style={goTopStyle} className="goTop" onClick={this._goTop}>回到顶部</div>
+			<div style={goTopStyle} className="goTop" onClick={this._goTop}>
+				<span>回到顶部</span>
+			</div>
     	)
   	}
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Routes from './router'
-import GoTop from './components/goTop/GoTop'
+import Routes from './router/index.jsx'
+import GoTop from './components/goTop/GoTop.jsx'
 import './App.css'
 
 class App extends Component {

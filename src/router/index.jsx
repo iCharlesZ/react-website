@@ -1,11 +1,11 @@
 import React from 'react'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
-import Header from '../components/header/Header'
-import Footer from '../components/footer/Footer'
-import HomePage from '../views/index/Index'
-import AboutPage from '../views/about/About'
-import NoMatch from '../views/404/404'
-import Topic from '../views/topic/Topic'
+import Header from '../components/header/Header.jsx'
+import Footer from '../components/footer/Footer.jsx'
+import HomePage from '../views/index/Index.jsx'
+import AboutPage from '../views/about/About.jsx'
+import NoMatch from '../views/404/404.jsx'
+import Topic from '../views/topic/Topic.jsx'
 
 const Routes = () => {
 	return (
