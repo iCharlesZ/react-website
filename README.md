@@ -13,7 +13,7 @@ npm run build
 
 先挖个坑，未成品，慢慢写
 
-[点击预览效果](https://charleszhang6.github.io/react-website/build/) (响应式，使用手机模式和电脑模式会显示不同效果)
+[点击预览效果](https://iCharlesZ.github.io/react-website/build/) (响应式，使用手机模式和电脑模式会显示不同效果)
 
 运行截图：
-![screenshot](https://charleszhang6.github.io/react-website/src/assets/images/screenshot/screenshot.png)
+![screenshot](https://iCharlesZ.github.io/react-website/src/assets/images/screenshot/screenshot.png)
